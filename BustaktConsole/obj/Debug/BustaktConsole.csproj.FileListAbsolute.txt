@@ -4,3 +4,9 @@ C:\Users\Daniel\Desktop\PDFBackground Changer\WienerlinienBustakt\BustaktConsole
 C:\Users\Daniel\Desktop\PDFBackground Changer\WienerlinienBustakt\BustaktConsole\obj\Debug\BustaktConsole.csprojResolveAssemblyReference.cache
 C:\Users\Daniel\Desktop\PDFBackground Changer\WienerlinienBustakt\BustaktConsole\obj\Debug\BustaktConsole.exe
 C:\Users\Daniel\Desktop\PDFBackground Changer\WienerlinienBustakt\BustaktConsole\obj\Debug\BustaktConsole.pdb
+C:\Users\Daniel\Desktop\WienerlinienBustakt\BustaktConsole\bin\Debug\BustaktConsole.exe.config
+C:\Users\Daniel\Desktop\WienerlinienBustakt\BustaktConsole\obj\Debug\BustaktConsole.exe
+C:\Users\Daniel\Desktop\WienerlinienBustakt\BustaktConsole\obj\Debug\BustaktConsole.pdb
+C:\Users\Daniel\Desktop\WienerlinienBustakt\BustaktConsole\bin\Debug\BustaktConsole.exe
+C:\Users\Daniel\Desktop\WienerlinienBustakt\BustaktConsole\bin\Debug\BustaktConsole.pdb
+C:\Users\Daniel\Desktop\WienerlinienBustakt\BustaktConsole\obj\Debug\BustaktConsole.csprojResolveAssemblyReference.cache

@@ -77,7 +77,6 @@ namespace BustaktConsole
                 {
                     anzahlbus = 0;
                 }
-                Console.WriteLine(anzahlbus);
                 if (i % 10 == 0)
                 {
                     Console.WriteLine($"Momentan warten beim 94A: {anzahlbus + tmpcount}");

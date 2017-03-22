@@ -57,6 +57,7 @@ namespace BustaktConsole
                     wartende.Add(new Schueler());
                 }
                 int tmpcount = 0;
+                List<int> tmpbus = new List<int>();
                 for (int j = 0; j < wartende.Count; j++)
                 {
                     if (wartende[j].gehzeit > 0)
@@ -69,14 +70,23 @@ namespace BustaktConsole
                         if (anzahlbus < 90)
                         {
                             anzahlbus++;
-                            wartende.RemoveAt(j);
+                            tmpcount--;
+                            tmpbus.Add(i);
                         }
                     }
                 }
+                //Console.WriteLine($"tempbuscount: {tmpbus.Count}");
+                for (int n = 0; n < tmpbus.Count; n++)
+                {
+                    wartende.RemoveAt(tmpbus[n]);
+                    //Console.WriteLine(n + " " + wartende.Count);
+                }
+                tmpbus = null;
                 if (i % 5 == 0)
                 {
                     anzahlbus = 0;
                 }
+                Console.WriteLine($"{i} warten, anzahlbus: {anzahlbus}, tmpcount {tmpcount}, schuelergeneriert: {wartende.Count}");
                 if (i % 10 == 0)
                 {
                     Console.WriteLine($"Momentan warten beim 94A: {anzahlbus + tmpcount}");

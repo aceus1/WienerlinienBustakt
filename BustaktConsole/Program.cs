@@ -86,10 +86,24 @@ namespace BustaktConsole
                 {
                     anzahlbus = 0;
                 }
-                Console.WriteLine($"{i} warten, anzahlbus: {anzahlbus}, tmpcount {tmpcount}, schuelergeneriert: {wartende.Count}");
                 if (i % 10 == 0)
                 {
-                    Console.WriteLine($"Momentan warten beim 94A: {anzahlbus + tmpcount}");
+                    if (i == 30)
+                    {
+                        Console.WriteLine($"8:00 Momentan warten beim 94A: {(anzahlbus + tmpcount) - 90}");
+                    }
+                    else
+                    {
+                        if (i < 10)
+                        {
+
+                            Console.WriteLine($"7:3{i} Momentan warten beim 94A: {anzahlbus + tmpcount}");
+                        }
+                        else
+                        {
+                            Console.WriteLine($"7:{i+30} Momentan warten beim 94A: {anzahlbus + tmpcount}");
+                        }
+                    }
                 }
             }
             Console.ReadKey();
